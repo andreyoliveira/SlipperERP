@@ -1,11 +1,18 @@
 package br.com.conceptmx.slipper.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 /**
  * @author andreyoliveira
  * @since 13/01/2014
  */
+@Entity
 public class Usuario {
 	
+	@Id
+	@GeneratedValue
 	private Long id;
 	
 	private String nome;

@@ -7,10 +7,13 @@ import java.util.List;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
+import br.com.conceptmx.slipper.util.Login;
+
 /**
  * @author andreyoliveira
  * @since 26/01/2014
  */
+@Login
 @ManagedBean
 @SessionScoped
 public class TemaBean implements Serializable {

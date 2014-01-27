@@ -8,11 +8,13 @@ import javax.faces.bean.ManagedBean;
 
 import br.com.conceptmx.slipper.dao.DAO;
 import br.com.conceptmx.slipper.domain.Usuario;
+import br.com.conceptmx.slipper.util.Login;
 
 /**
  * @author andreyoliveira
  * @since 26/01/2014
  */
+@Login
 @ManagedBean
 public class UsuarioBean {
 	

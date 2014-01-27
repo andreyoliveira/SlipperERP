@@ -9,5 +9,15 @@
     <lifecycle>
     	<phase-listener>br.com.conceptmx.slipper.util.LogPhaseListener</phase-listener>
     </lifecycle>
+    
+    <navigation-rule>
+	    <navigation-case>
+	    	<from-outcome>login</from-outcome>
+	        <to-view-id>/login.xhtml</to-view-id>
+	        <redirect />
+	    </navigation-case>
+    </navigation-rule>
+    
+    
 
 </faces-config>
